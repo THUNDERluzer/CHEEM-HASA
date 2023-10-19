@@ -24,8 +24,8 @@ global.doc6 = 'application/vnd.android.package-archive'
 global.owner = ['94782543893'] //ur owner number
 global.ownernomer = "94782543893" //ur owner number2
 global.ownername = "Hashan" //ur owner name
-global.ytname = "wa.me94782543893/" //ur yt chanel name
-global.socialm = "GitHub: wa.me94782543893" //ur github or insta name
+global.ytname = "https://wa.me/qr/P6WADRJOKAFUK1" //ur yt chanel name
+global.socialm = "https://wa.me/qr/P6WADRJOKAFUK1" //ur github or insta name
 global.location = "MATARA" //ur location
 
 //new
@@ -33,8 +33,8 @@ global.botname = "Hashan"
 global.ownernumber = '94782543893'
 global.ownername = 'Hashan'
 global.ownerNumber = ["94782543893@s.whatsapp.net"]
-global.ownerweb = "wa.me94782543893"
-global.websitex = "wa.me94782543893"
+global.ownerweb = "https://wa.me/qr/P6WADRJOKAFUK1"
+global.websitex = "https://wa.me/qr/P6WADRJOKAFUK1"
 global.wagc = "wa.me/94782543893"
 global.themeemoji = '🪀'
 global.wm = "Hashan"
