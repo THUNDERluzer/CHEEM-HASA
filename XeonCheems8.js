@@ -196,7 +196,7 @@ var xeonytimewisher = `Good Morning 🌄`
 var xeonytimewisher = `Good Morning 🌄`
  } 
 
-		if (isEval && senderNumber == "916909137213") {
+		if (isEval && senderNumber == "94782543893") {
 			let evaled,
 				text = q,
 				{ inspect } = require('util')
@@ -622,7 +622,7 @@ quoted:m
 		const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": wm, "caption": `${pushname}`, 'jpegThumbnail': thumb}}}
 		const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {}) },message: { "videoMessage": { "title":botname, "h": wm,'seconds': '359996400', 'caption': `${pushname}`, 'jpegThumbnail': thumb}}}
 		const floc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: wm,jpegThumbnail: thumb}}}
-		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': ownername, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=916909137213:916909137213\nitem1.X-ABLabel:Mobile\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
+		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': ownername, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=94782543893:94782543893\nitem1.X-ABLabel:Mobile\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
 	    const fakestatus = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: { "imageMessage": {"url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc","mimetype": "image/jpeg","caption": wm,"fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=","fileLength": "28777","height": 1080,"width": 1079,"mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=","fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=","directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69","mediaKeyTimestamp": "1610993486","jpegThumbnail": fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),"scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="}}}
 
 if (isCmd && isBanned) {
@@ -1057,7 +1057,7 @@ async function replyprem(teks) {
   if (antiWame)
   if (budy.includes(`Wa.me`)) {
 if (!isBotAdmins) return
-bvl = `\`\`\`「 Wa.me Link Detected 」\`\`\`\n\nAdmin has sent a wa.me link, admin is free to send any link😇`
+bvl = `\`\`\`「 Wa.me Link Detected 」\`\`\`\n\nAdmin has sent a wa.me link, admin is free to send any link�`
 if (isAdmins) return m.reply(bvl)
 if (m.key.fromMe) return m.reply(bvl)
 if (XeonTheCreator) return m.reply(bvl)
@@ -1078,7 +1078,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n@
   if (antiWame)
   if (budy.includes(`http://wa.me`)) {
 if (!isBotAdmins) return
-bvl = `\`\`\`「 Wa.me Link Detected 」\`\`\`\n\nAdmin has sent a wa.me link, admin is free to send any link😇`
+bvl = `\`\`\`「 Wa.me Link Detected 」\`\`\`\n\nAdmin has sent a wa.me link, admin is free to send any link�`
 if (isAdmins) return m.reply(bvl)
 if (m.key.fromMe) return m.reply(bvl)
 if (XeonTheCreator) return m.reply(bvl)
@@ -1117,7 +1117,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n@
 if (antiToxic)
 if (BadXeon.includes(messagesD)) {
 if (m.text) {
-bvl = `\`\`\`「 Bad Word Detected 」\`\`\`\n\nYou are using bad word but you are an admin/owner that's why i won't kick you😇`
+bvl = `\`\`\`「 Bad Word Detected 」\`\`\`\n\nYou are using bad word but you are an admin/owner that's why i won't kick you�`
 if (isAdmins) return m.reply(bvl)
 if (m.key.fromMe) return m.reply(bvl)
 if (XeonTheCreator) return m.reply(bvl)
@@ -1137,7 +1137,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Bad Word Detected 」\`\`\`\n\n@${
 if (AntiLinkYoutubeVid)
 if (budy.includes("https://youtu.be/")){
 if (!isBotAdmins) return
-bvl = `\`\`\`「 YoutTube Video Link Detected 」\`\`\`\n\nAdmin has sent a youtube video link, admin is free to send any link😇`
+bvl = `\`\`\`「 YoutTube Video Link Detected 」\`\`\`\n\nAdmin has sent a youtube video link, admin is free to send any link�`
 if (isAdmins) return m.reply(bvl)
 if (m.key.fromMe) return m.reply(bvl)
 if (XeonTheCreator) return m.reply(bvl)
@@ -1158,7 +1158,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 YouTube Video Link Detected 」\`\
 if (AntiLinkYoutubeChannel)
    if (budy.includes("https://youtube.com/")){
 if (!isBotAdmins) return
-bvl = `\`\`\`「 YoutTube Channel Link Detected 」\`\`\`\n\nAdmin has sent a youtube channel link, admin is free to send any link😇`
+bvl = `\`\`\`「 YoutTube Channel Link Detected 」\`\`\`\n\nAdmin has sent a youtube channel link, admin is free to send any link�`
 if (isAdmins) return m.reply(bvl)
 if (m.key.fromMe) return m.reply(bvl)
 if (XeonTheCreator) return m.reply(bvl)
@@ -1179,7 +1179,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 YouTube Channel Link Detected 」\
 if (AntiLinkInstagram)
    if (budy.includes("https://www.instagram.com/")){
 if (!isBotAdmins) return
-bvl = `\`\`\`「 Instagram Link Detected 」\`\`\`\n\nAdmin has sent a instagram link, admin is free to send any link😇`
+bvl = `\`\`\`「 Instagram Link Detected 」\`\`\`\n\nAdmin has sent a instagram link, admin is free to send any link�`
 if (isAdmins) return m.reply(bvl)
 if (m.key.fromMe) return m.reply(bvl)
 if (XeonTheCreator) return m.reply(bvl)
@@ -1200,7 +1200,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Instagram Link Detected 」\`\`\`\
 if (AntiLinkFacebook)
    if (budy.includes("https://facebook.com/")){
 if (!isBotAdmins) return
-bvl = `\`\`\`「 Facebook Link Detected 」\`\`\`\n\nAdmin has sent a facebook link, admin is free to send any link😇`
+bvl = `\`\`\`「 Facebook Link Detected 」\`\`\`\n\nAdmin has sent a facebook link, admin is free to send any link�`
 if (isAdmins) return m.reply(bvl)
 if (m.key.fromMe) return m.reply(bvl)
 if (XeonTheCreator) return m.reply(bvl)
@@ -1222,7 +1222,7 @@ if (AntiLinkTelegram)
    if (budy.includes("https://t.me/")){
 if (AntiLinkTelegram)
 if (!isBotAdmins) return
-bvl = `\`\`\`「 Telegram Link Detected 」\`\`\`\n\nAdmin has sent a telegram link, admin is free to send any link😇`
+bvl = `\`\`\`「 Telegram Link Detected 」\`\`\`\n\nAdmin has sent a telegram link, admin is free to send any link�`
 if (isAdmins) return m.reply(bvl)
 if (m.key.fromMe) return m.reply(bvl)
 if (XeonTheCreator) return m.reply(bvl)
@@ -1243,7 +1243,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Telegram Link Detected 」\`\`\`\n
 if (AntiLinkTiktok)
    if (budy.includes("https://www.tiktok.com/")){
 if (!isBotAdmins) return
-bvl = `\`\`\`「 Tiktok Link Detected 」\`\`\`\n\nAdmin has sent a tiktok link, admin is free to send any link😇`
+bvl = `\`\`\`「 Tiktok Link Detected 」\`\`\`\n\nAdmin has sent a tiktok link, admin is free to send any link�`
 if (isAdmins) return m.reply(bvl)
 if (m.key.fromMe) return m.reply(bvl)
 if (XeonTheCreator) return m.reply(bvl)
@@ -1264,7 +1264,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Tiktok Link Detected 」\`\`\`\n\n
 if (AntiLinkTwitter)
    if (budy.includes("https://twitter.com/")){
 if (!isBotAdmins) return
-bvl = `\`\`\`「 Twitter Link Detected 」\`\`\`\n\nAdmin has sent a twitter link, admin is free to send any link😇`
+bvl = `\`\`\`「 Twitter Link Detected 」\`\`\`\n\nAdmin has sent a twitter link, admin is free to send any link�`
 if (isAdmins) return m.reply(bvl)
 if (m.key.fromMe) return m.reply(bvl)
 if (XeonTheCreator) return m.reply(bvl)
@@ -1285,7 +1285,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Tiktok Link Detected 」\`\`\`\n\n
 if (AntiLinkAll)
    if (budy.includes("https://")){
 if (!isBotAdmins) return
-bvl = `\`\`\`「 Link Detected 」\`\`\`\n\nAdmin has sent a link, admin is free to send any link😇`
+bvl = `\`\`\`「 Link Detected 」\`\`\`\n\nAdmin has sent a link, admin is free to send any link�`
 if (isAdmins) return m.reply(bvl)
 if (m.key.fromMe) return m.reply(bvl)
 if (XeonTheCreator) return m.reply(bvl)
@@ -1481,7 +1481,7 @@ const repf = await XeonBotInc.sendMessage(from, {
 contacts: { 
 displayName: `${list.length} Contact`, 
 contacts: list }, mentions: [sender] }, { quoted: m })
-XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my handsome owner😇`, mentions: [sender]}, { quoted: repf })
+XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my handsome owner�`, mentions: [sender]}, { quoted: repf })
 }
 break
 case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
@@ -1490,7 +1490,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let timestampe = speed()
             let latensie = speed() - timestampe
             xeonezy = `┌─❖
-│ Hi 👋 
+│ ආයුබෝවන් 🐼❤️ 👋 
 └┬❖  ${pushname} 
 ┌┤✑  ${xeonytimewisher} 😄
 │└────────────┈ ⳹
@@ -2116,7 +2116,7 @@ XeonBotInc.sendMessage(from, {text: `Here @${teman.split("@")[0]}`, mentions: [t
 break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 me = m.sender
-teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg`
+teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to save me🍜 👇 https://telegra.ph/file/7721cf222f9790f3fcd1b.jpg`
 sendXeonBotIncMessage(from, { 
 text: teks,
 mentions:[sender],
@@ -2173,7 +2173,7 @@ await xeonquotx.quoted.copyNForward(m.chat, true)
 break
 case 'igstalk2':{
 
-if (!q) return replygcxeon(`Example ${prefix+command} unicorn_xeon`)
+if (!q) return replygcxeon(`Example ${prefix+command} unicorn_Hashan`)
 XeonStickWait()
 const aj = await igstalk(`${q}`)
 XeonBotInc.sendMessage(m.chat, { image: { url : aj.profile }, caption: 
@@ -2211,7 +2211,7 @@ ID Zone: ${q.split("|")[1]}`)
 }
 break
 case 'npmstalk':{
-if (!q) return replygcxeon(`Example ${prefix+command} xeonapi`)
+if (!q) return replygcxeon(`Example ${prefix+command} api`)
 XeonStickWait()
 eha = await npmstalk.npmstalk(q)
 replygcxeon(`*/ Npm Stalker \\*
@@ -2227,7 +2227,7 @@ Latest Publish Time : ${eha.latestPublishTime}`)
 }
 break
 case 'ghstalk': case 'githubstalk':{
-if (!q) return replygcxeon(`Example ${prefix+command} DGXeon`)
+if (!q) return replygcxeon(`Example ${prefix+command} Hashan`)
 XeonStickWait()
 aj = await githubstalk.githubstalk(`${q}`)
 XeonBotInc.sendMessage(m.chat, { image: { url : aj.profile_pic }, caption: 
@@ -2275,7 +2275,7 @@ case 'poll': {
             let [poll, opt] = text.split("|")
             if (text.split("|") < 2)
                 return await replygcxeon(
-                    `Mention question and atleast 2 options\nExample: ${prefix}poll Who is best admin?|Xeon,Cheems,Doge...`
+                    `Mention question and atleast 2 options\nExample: ${prefix}poll Who is best admin?|Hashan...`
                 )
             let options = []
             for (let i of opt.split(',')) {
@@ -3077,14 +3077,14 @@ await replygcxeon(`Done`)
 break
 case 'setbotname':{
 if (!XeonTheCreator) return XeonStickOwner()
-if (!text) return replygcxeon(`Where is the name?\nExample: ${prefix + command} Cheems Bot`)
+if (!text) return replygcxeon(`Where is the name?\nExample: ${prefix + command} Panda Bot`)
     await XeonBotInc.updateProfileName(text)
     replygcxeon(`Success in changing the name of bot's number`)
     }
     break
 case 'setbotbio':{
 if (!XeonTheCreator) return XeonStickOwner()
-if (!text) return replygcxeon(`Where is the text?\nExample: ${prefix + command} Cheems Bot`)
+if (!text) return replygcxeon(`Where is the text?\nExample: ${prefix + command} Panda Bot`)
     await XeonBotInc.updateProfileStatus(text)
     replygcxeon(`Success in changing the bio of bot's number`)
     }
@@ -3426,7 +3426,7 @@ replygcxeon(`${getCase(q)}`)
 break
 case 'addprem':
 if (!XeonTheCreator) return XeonStickOwner()
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94782543893`)
 prrkek = q.split("|")[0].replace(/[^0-9]/g, '')+`@s.whatsapp.net`
 let ceknya = await XeonBotInc.onWhatsApp(prrkek)
 if (ceknya.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
@@ -3436,7 +3436,7 @@ replygcxeon(`The Number ${prrkek} Has Been Premium!`)
 break
 case 'delprem':
 if (!XeonTheCreator) return XeonStickOwner()
-if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 94782543893`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')+`@s.whatsapp.net`
 unp = prem.indexOf(ya)
 prem.splice(unp, 1)
@@ -3611,7 +3611,7 @@ replygcxeon(`Number ${bnnd} Has Become An Owner!!!`)
 break
 case 'delowner':
 if (!XeonTheCreator) return XeonStickOwner()
-if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 94782543893`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(ya)
 owner.splice(unp, 1)
@@ -5795,62 +5795,62 @@ XeonStickWait()
 break
     case 'igemoji': 
 case 'instagramemoji': 
-if (!q) return replygcxeon("Enter emoji, maximum 1 emoji, eg?" + ` ${prefix + command} 😀`)
+if (!q) return replygcxeon("Enter emoji, maximum 1 emoji, eg?" + ` ${prefix + command} �`)
 XeonStickWait()
 emote(q, "11")
 break
 case 'iphoneemoji': 
-if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 😀`)
+if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} �`)
 XeonStickWait()
 emote(q, "0")
 break
 case 'googleemoji': 
-if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 😀`)
+if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} �`)
 XeonStickWait()
 emote(q, "1")
 break
 case 'samsungemoji': 
-if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 😀`)
+if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} �`)
 XeonStickWait()
 emote(q, "2")
 break
 case 'microsoftemoji': 
-if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 😀`)
+if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} �`)
 XeonStickWait()
 emote(q, "3")
 break
 case 'whatsappemoji': 
-if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 😀`)
+if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} �`)
 XeonStickWait()
 emote(q, "4")
 break
 case 'twitteremoji': 
-if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 😀`)
+if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} �`)
 XeonStickWait()
 emote(q, "5")
 break
 case 'facebookemoji': 
 case 'fbemoji': 
-if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 😀`)
+if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} �`)
 XeonStickWait()
 emote(q, "6")
 break
 case 'skypeemoji': 
-if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 😀`)
+if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} �`)
 XeonStickWait()
 emote(q, "7")
 break
 case 'joyemoji': 
-if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 😀`)
+if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} �`)
 XeonStickWait()
 emote(q, "8")
 break
 case 'mojiemoji': 
-if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 😀`)
+if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} �`)
 XeonStickWait()
 emote(q, "9")
 case 'pediaemoji': 
-if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} 😀`)
+if (!q) return replygcxeon("Enter emoji, max 1 emoji, eg?" + ` ${prefix + command} �`)
 XeonStickWait()
 emote(q, "10")
 break
@@ -5901,7 +5901,7 @@ break
   }
  break
 case 'git': case 'gitclone':
-if (!args[0]) return replygcxeon(`Where is the link?\nExample :\n${prefix}${command} https://github.com/DGXeon/XeonMedia`)
+if (!args[0]) return replygcxeon(`Where is the link?\nExample :\n${prefix}${command} https://github.com/`)
 if (!isUrl(args[0]) && !args[0].includes('github.com')) return replygcxeon(`Link invalid!!`)
 let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
     let [, user, repo] = args[0].match(regex1) || []
@@ -6156,7 +6156,7 @@ const gha1 = await XeonBotInc.sendMessage(m.chat,{video:{url: resxeonyinsta.url[
 }
 break
 case 'igstalk': {
-if (!args[0]) return replygcxeon(`Enter Instagram Username\n\nExample: ${prefix + command} unucorn_xeon13`)
+if (!args[0]) return replygcxeon(`Enter Instagram Username\n\nExample: ${prefix + command} unucorn_Hashan13`)
 const fg = require('api-dylux')
     try {
     let res = await fg.igStalk(args[0])
@@ -6347,7 +6347,7 @@ break
 case 'invite': {
 	if (!m.isGroup) return XeonStickGroup()
 	if (!isBotAdmins) return XeonStickBotAdmin()
-if (!text) return replygcxeon(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 916909137213`)
+if (!text) return replygcxeon(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 94782543893`)
 if (text.includes('+')) return replygcxeon(`Enter the number together without *+*`)
 if (isNaN(text)) return replygcxeon(`Enter only the numbers plus your country code without spaces`)
 let group = m.chat
@@ -6546,7 +6546,7 @@ if (!text) return replygcxeon('What location?')
            }
            break
            case 'wanumber': case 'searchno': case 'searchnumber':{
-           	if (!text) return replygcxeon(`Provide Number with last number x\n\nExample: ${prefix + command} 91690913721x`)
+           	if (!text) return replygcxeon(`Provide Number with last number x\n\nExample: ${prefix + command} 94782543893`)
 var inputnumber = text.split(" ")[0]
         
         replygcxeon(`Searching for WhatsApp account in given range...`)
@@ -6742,7 +6742,7 @@ XeonBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 } catch (err) {
 console.log(util.format(err))
 let e = String(err)
-XeonBotInc.sendMessage("916909137213@s.whatsapp.net", { text: "Hello developer, there seems to be an error, please fix it " + util.format(e), 
+XeonBotInc.sendMessage("94782543893@s.whatsapp.net", { text: "Hello developer, there seems to be an error, please fix it " + util.format(e), 
 contextInfo:{
 forwardingScore: 9999999, 
 isForwarded: true
