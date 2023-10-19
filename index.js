@@ -64,7 +64,7 @@ async function XeonBotIncBot() {
                 return msg.message || undefined
             }
             return {
-                conversation: "Cheems Bot Here"
+                conversation: "Panda Bot Here"
             }
         }
     })
@@ -131,7 +131,7 @@ start('2',colors.bold.white('\n\nWaiting for New Messages..'))
 XeonBotInc.ev.on('creds.update', await saveCreds)
 
     // Anti Call
-    XeonBotInc.ev.on('call', async (XeonPapa) => {
+    XeonBotInc.ev.on('cal', async (XeonPapa) => {
     let botNumber = await XeonBotInc.decodeJid(XeonBotInc.user.id)
     let XeonBotNum = db.settings[botNumber].anticall
     if (!XeonBotNum) return
@@ -139,7 +139,7 @@ XeonBotInc.ev.on('creds.update', await saveCreds)
     for (let XeonFucks of XeonPapa) {
     if (XeonFucks.isGroup == false) {
     if (XeonFucks.status == "offer") {
-    let XeonBlokMsg = await XeonBotInc.sendTextWithMentions(XeonFucks.from, `*${XeonBotInc.user.name}* can't receive ${XeonFucks.isVideo ? `video` : `voice` } call. Sorry @${XeonFucks.from.split('@')[0]} you will be blocked. If accidentally please contact the owner to be unblocked !`)
+    let XeonBlokMsg = await XeonBotInc.sendTextWithMentions(XeonFucks.from, `*${XeonBotInc.user.name}* can't receive ${XeonFucks.isVideo ? `video` : `voice` } call. පොඩ්ඩක් ඉන්න🫥 @${XeonFucks.from.split('@')[0]}  !`)
     XeonBotInc.sendContact(XeonFucks.from, global.owner, XeonBlokMsg)
     await sleep(8000)
     await XeonBotInc.updateBlockStatus(XeonFucks.from, "block")
@@ -232,7 +232,7 @@ XeonLft = await getBuffer(ppuser)
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
                 xeonbody = `┌─❖
-│「 𝗛𝗶 👋 」
+│「 𝗛𝗶 ආයුබෝවන් 🐼❤️ 」
 └┬❖ 「  @${xeonName.split("@")[0]}  」
    │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
    │✑  ${metadata.subject}
@@ -260,7 +260,7 @@ XeonBotInc.sendMessage(anu.id,
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
                     xeonbody = `┌─❖
-│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
+│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋🐼🖤 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
    │✑  𝗟𝗲𝗳𝘁 
    │✑ ${metadata.subject}
@@ -331,7 +331,7 @@ console.log(err)
             return msg?.message
         }
         return {
-            conversation: "Cheems Bot Here"
+            conversation: "Panda Bot Here"
         }
     }
     XeonBotInc.ev.on('messages.update', async chatUpdate => {
